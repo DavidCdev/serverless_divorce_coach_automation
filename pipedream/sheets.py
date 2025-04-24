@@ -35,3 +35,4 @@ def is_duplicate_hash(hash, env):
     ws = get_gsheet(env, 'AuditLog')
     all_hashes = [r[0] for r in ws.get_all_values()[1:]] # skip header
     return hash in all_hashes
+
