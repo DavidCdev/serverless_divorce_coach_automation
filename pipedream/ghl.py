@@ -21,3 +21,4 @@ def send_ghl_message(deadline, rule, env):
         return ("success", None)
     except Exception as exc:
         return ("failure", str(exc))
+
