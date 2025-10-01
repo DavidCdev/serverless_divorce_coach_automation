@@ -21,3 +21,4 @@ def fetch_deadlines(env):
         for entry in resp.json().get("calendar_entries", [])
     ]
 
+
