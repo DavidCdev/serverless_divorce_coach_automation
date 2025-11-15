@@ -36,3 +36,4 @@ def is_duplicate_hash(hash, env):
     all_hashes = [r[0] for r in ws.get_all_values()[1:]] # skip header
     return hash in all_hashes
 
+
